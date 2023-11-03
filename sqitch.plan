@@ -4,3 +4,5 @@
 
 appschema 2023-11-03T05:25:24Z nishant <nishant.movaliya@scaletech.xyz> # Add schema for all flipr objects.
 users [appschema] 2023-11-03T07:12:23Z nishant <nishant.movaliya@scaletech.xyz> # Creates table to track our users.
+insert_user [users appschema] 2023-11-03T08:56:47Z scaletech,,, <scaletech@spellenx> # Creates a function to insert a user.
+change_pass [users appschema] 2023-11-03T08:57:03Z nishant <nishant.movaliya@scaletech.xyz> # Creates a function to change a user password.
