@@ -8,3 +8,6 @@ insert_user [users appschema] 2023-11-03T08:56:47Z scaletech,,, <scaletech@spell
 change_pass [users appschema] 2023-11-03T08:57:03Z nishant <nishant.movaliya@scaletech.xyz> # Creates a function to change a user password.
 flips [appschema users] 2023-11-03T10:06:26Z scaletech,,, <scaletech@spellenx> # Adds table for storing flips.
 @v1.0.0-dev1 2023-11-03T10:16:04Z nishant <nishant.movaliya@scaletech.xyz> # Tag v1.0.0-dev1.
+
+insert_flip [users appschema] 2023-11-03T10:53:41Z scaletech,,, <scaletech@spellenx> # Creates a function to insert a flip.
+delete_flip [users appschema] 2023-11-03T10:54:59Z scaletech,,, <scaletech@spellenx> # Creates a function to delete a flip.
